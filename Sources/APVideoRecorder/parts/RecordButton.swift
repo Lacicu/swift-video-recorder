@@ -4,7 +4,7 @@
 //
 //  Created by Kyosuke Kawamura on 2022/02/07.
 //
-
+#if !os(macOS)
 import UIKit
 
 @objc internal protocol RecordButtonDelegate: NSObjectProtocol {
@@ -128,3 +128,4 @@ internal class RecordButton: UIView {
     }
     
 }
+#endif

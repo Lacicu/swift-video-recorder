@@ -1,7 +1,7 @@
 //
 // Created by Kyosuke Kawamura on 2022/02/07.
 //
-
+#if !os(macOS)
 import UIKit
 import AVFoundation
 
@@ -208,3 +208,4 @@ extension APVideoRecorder: AVCaptureFileOutputRecordingDelegate {
         UISaveVideoAtPathToSavedPhotosAlbum(videoRecorded.path, self, #selector(video(_:didFinishSavingWithError:contextInfo:)), nil)
     }
 }
+#endif

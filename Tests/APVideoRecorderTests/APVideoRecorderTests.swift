@@ -6,6 +6,6 @@ final class swift_video_recorderTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(APVideoRecorder().text, "Hello, World!")
+//        XCTAssertEqual(APVideoRecorder().text, "Hello, World!")
     }
 }
