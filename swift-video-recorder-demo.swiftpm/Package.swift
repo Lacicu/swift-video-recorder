@@ -8,13 +8,13 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "vrDemo",
+    name: "video-recorder",
     platforms: [
         .iOS("13.0")
     ],
     products: [
         .iOSApplication(
-            name: "vrDemo",
+            name: "video-recorder",
             targets: ["UIKItExampleModule"],
             bundleIdentifier: "jp.co.lacicu.vrdemo",
             teamIdentifier: "L6KA777G24",
